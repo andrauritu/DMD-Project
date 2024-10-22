@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="bmititle">BMI Calculator</string>
+    <string name="self_destruct">Self Destruct</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="enter_your_age">Enter your age</string>
+    <string name="enter_your_height_cm">Enter your height (cm)</string>
+    <string name="enter_your_weight_kg">Enter your weight (kg)</string>
+    <string name="calculate">Calculate</string>
+    <string name="your_bmi_is_2f">Your BMI is: %.2f</string>
+</resources>
