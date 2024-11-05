@@ -10,4 +10,8 @@
     <string name="enter_your_weight_kg">Enter your weight (kg)</string>
     <string name="calculate">Calculate</string>
     <string name="your_bmi_is_2f">Your BMI is: %.2f</string>
+    <string name="your_bmi_is">Your BMI is:</string>
+    <string name="health_tips_will_appear_here">Health tips will appear here.</string>
+    <string name="share">Share</string>
+    <string name="info">Info</string>
 </resources>

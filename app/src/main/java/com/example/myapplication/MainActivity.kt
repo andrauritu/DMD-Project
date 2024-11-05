@@ -1,5 +1,6 @@
 package com.example.myapplication
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
@@ -37,10 +38,14 @@ class MainActivity : AppCompatActivity() {
             val heightInMeters = editTextHeight.text.toString().toFloat() / 100
             val weight = editTextWeight.text.toString().toFloat()
             val bmi = weight / (heightInMeters * heightInMeters)
+
             Log.d("MainActivity", "Height: $heightInMeters, Weight: $weight, BMI: $bmi")
 
-            bmiResultTextView.text = getString(R.string.your_bmi_is_2f).format(bmi)
+            val intent = Intent(this, Result::class.java)
+            intent.putExtra("BMI_VALUE", bmi)
+            startActivity(intent)
         }
+
     }
     override fun onStart() {
         super.onStart()
